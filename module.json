@@ -1,0 +1,172 @@
+{
+  "id": "ars-homebrew",
+  "title": "ARS Homebrew",
+  "description": "Creates default set of Advanced Roleplaying System compendia for creating homebrew materials that can be shared across Foundry VTT worlds hosted on the same server.",
+  "authors": [
+    {
+      "name": "Kerry Harrison",
+      "discord": "sirkerry",
+      "url": "https://github.com/sirkerry"	  
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "actors-gm",
+      "system": "ars",
+      "label": "Actors (GM)",
+      "path": "./packs/actors-gm.db",
+      "module": "ars-homebrew",
+      "type": "Actor"
+    },
+    {
+      "name": "actors-pc",
+      "system": "ars",
+      "label": "Actors (PC)",
+      "path": "./packs/actors-pc.db",
+      "module": "ars-homebrew",
+      "type": "Actor"
+    }, 	
+ {
+      "name": "adventures",
+      "system": "ars",
+      "label": "Adventures",
+      "path": "./packs/adventures.db",
+      "module": "ars-homebrew",
+      "type": "Adventure"
+    },
+    {
+      "name": "cards",
+      "system": "ars",
+      "label": "Cards",
+      "path": "./packs/cards.db",
+      "module": "ars-homebrew",
+      "type": "Cards"
+    },
+    {
+      "name": "items-gm",
+      "system": "ars",
+      "label": "Items (GM)",
+      "path": "./packs/items-gm.db",
+      "module": "ars-homebrew",
+      "type": "Item"
+    },
+    {
+      "name": "items-pc",
+      "system": "ars",
+      "label": "Items (PC)",
+      "path": "./packs/items-pc.db",
+      "module": "ars-homebrew",
+      "type": "Item"
+    },	
+    {
+      "name": "journals-gm",
+      "system": "ars",
+      "label": "Journals (GM)",
+      "path": "./packs/journals-gm.db",
+      "module": "ars-homebrew",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "journals-pc",
+      "system": "ars",
+      "label": "Journals (PC)",
+      "path": "./packs/journals-PC.db",
+      "module": "ars-homebrew",
+      "type": "JournalEntry"
+    },	
+    {
+      "name": "macros-gm",
+      "system": "ars",
+      "label": "Macros (GM)",
+      "path": "./packs/macros-gm.db",
+      "module": "ars-homebrew",
+      "type": "Macro"
+    },
+    {
+      "name": "macros-pc",
+      "system": "ars",
+      "label": "Macros (PC)",
+      "path": "./packs/macros-pc.db",
+      "module": "ars-homebrew",
+      "type": "Macro"
+    },	
+    {
+      "name": "playlists",
+      "system": "ars",
+      "label": "Playlists",
+      "path": "./packs/playlists.db",
+      "module": "wwn-homebrew",
+      "type": "Playlist"
+    },	
+    {
+      "name": "tables-gm",
+      "system": "ars",
+      "label": "Tables (GM)",
+      "path": "./packs/tables-gm.db",
+      "module": "ars-homebrew",
+      "type": "RollTable"
+    },
+    {
+      "name": "tables-pc",
+      "system": "ars",
+      "label": "Tables (PC)",
+      "path": "./packs/tables-pc.db",
+      "module": "ars-homebrew",
+      "type": "RollTable"
+    },	
+    {
+      "name": "scenes",
+      "system": "ars",
+      "label": "Scenes",
+      "path": "./packs/scenes.db",
+      "module": "ars-homebrew",
+      "type": "Scene"
+    }
+ ],
+	"packFolders": [
+		{
+			"name": "ARS Homebrew",
+			"sorting": "a",
+			"color": "#22252b",
+			"packs": [
+				"playlists"
+			],
+			"folders": [
+				{
+					"name": "Players",
+					"sorting": "a",
+					"color": "#262626",
+					"packs": [
+						"actors-pc",
+						"items-pc",
+						"journals-pc",
+						"tables-pc"
+					]
+				},
+				{
+					"name": "GameMaster",
+					"sorting": "a",
+					"color": "#262626",
+					"packs": [
+						"actors-gm",					
+						"adventures",
+						"cards",
+						"items-gm",
+						"journals-gm",
+						"macros-gm",
+						"scenes",	
+						"tables-gm"
+					]
+				}
+			]
+		}
+	],
+  "download": "https://github.com/sirkerry/ars-homebrew/releases/download/v1/module.zip", 
+  "manifest": "https://github.com/sirkerry/ars-homebrew/releases/latest/download/module.json",
+  "url": "https://github.com/sirkerry/ars-homebrew"
+}
